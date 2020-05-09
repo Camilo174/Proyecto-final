@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>usuario</class>
+ <widget class="QDialog" name="usuario">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>331</width>
+    <height>197</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ingreso de usuario</string>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>218</width>
+     <height>122</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Clave</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="_username"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Usuario</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="_usrpassword"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>166</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

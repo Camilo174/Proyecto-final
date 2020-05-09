@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>formulario_usuario</class>
+ <widget class="QDialog" name="formulario_usuario">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>325</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ingreso de usuario</string>
+  </property>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>0</y>
+     <width>20</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cdm_RegUsr">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>290</y>
+     <width>121</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Registrar usuario</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>419</width>
+     <height>278</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Registro de nuevo usuario</string>
+   </property>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>354</width>
+      <height>232</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Nombres                       </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="nomuNR"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Apellidos                       </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="apeNR"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Documento id              </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="docNR"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Fecha de nacimiento </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDateEdit" name="fnNR"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>(dd/mm/aa)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Nombre de usuario </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="usuNR"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_14">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Contraseña                </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="passNR">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QLabel" name="label_15">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Clave administrador</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="clvadminNR">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>321</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Ingreso de usuario</string>
+      </property>
+      <widget class="QWidget" name="">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>301</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <pointsize>13</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Nombre de usuario  </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="_username"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <pointsize>13</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Contraseña                 </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="_usrpassword">
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDialogButtonBox" name="buttonBox">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="standardButtons">
+       <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>formulario_usuario</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>formulario_usuario</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
